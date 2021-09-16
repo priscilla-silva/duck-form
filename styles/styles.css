@@ -1,0 +1,41 @@
+body {
+    background-color: #9DBEBB;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 1400px;
+}
+h1 {
+    font-size: 48px;
+    max-width: 500px;
+}
+h2 {
+    font-weight: lighter;
+    font-size: 22px;
+    max-width: 600px;
+}
+
+.row {
+    display: flex;
+    z-index: 0;
+    flex-direction: row;
+    align-items: stretch;
+  }
+.column-left {
+    width: 75%;
+    background-color: #BE0909;
+    z-index: 0;
+  }
+  
+.column-right {
+    width: 25%;
+    background-color: #FFB039;
+    z-index: 0;
+
+  }
+.duck {
+    z-index: 1;
+    position: relative;
+    left: 300px;
+    top: -100px;
+    transform: scale(.8);
+    
+}
